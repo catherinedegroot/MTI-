@@ -1,0 +1,754 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+p {
+	font-family: futura-pt, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	color: white;
+	font-size: 24px;
+	text-align: center;
+}
+
+	
+h1{
+	color: white;
+	text-transform: uppercase;
+	padding-top: 250px;
+	font-size: 75px;
+	float: left;
+	width:100%;
+}	
+
+	
+h2{
+	color: white;
+	text-transform: uppercase;
+	font-size: 64px;
+	width: 100%;
+	display: block;
+	justify-content: center;
+	text-align: center;
+	padding: 150px 0 60px 0;
+	
+}	
+
+a {
+	text-decoration: none;
+	font-size: 28px;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+}
+
+button {
+	background-color: white;
+	font-family: futura-pt-bold, sans-serif-bold;
+	text-transform: uppercase;
+	color: #93c9d3;
+	border: none;
+	padding: 20px;
+	font-size: 20px;
+	display: flex;
+	flex-basis: 1;
+	cursor: pointer;
+}
+
+button:hover {
+	color: #e8d4d4;
+	
+}
+
+.pointer {cursor: pointer;
+
+}
+
+.img {
+	width:100%;
+	float: left;
+}
+
+.script {
+	color: #e8d4d4;
+}
+
+p {
+	padding-bottom: 50px;
+}
+	
+#angle-up {
+	color: white; 
+}	
+
+#contact ul {
+	padding: 15% 0 15% 0;
+}
+
+
+#wrapper {
+	width: 100%;
+	justify-content: center;
+}
+
+
+#navcontainer {
+	position: fixed;
+	top:50px;
+	margin: auto;
+	width: 100%;
+	height: 200px;
+	z-index: 1;
+}
+
+
+#navcontainer-small {
+	top:50px;
+	margin: auto;
+	width: 100%;
+	height: 300px;
+	z-index: 1;
+	background-color: #93c9d3;
+}
+
+#nav {
+	display: flex;
+	justify-content: space-between;
+	width: 95%;
+	margin: auto;
+}
+
+#nav-push {
+	padding-top: 30px;
+	display: flex;
+	justify-content: space-between;
+	width: 95%;
+	margin: auto;
+
+}
+
+#about {
+	background-color: #eedaa5;
+}
+
+#backtotop {
+	font-size: 100px;
+}
+
+
+#budapestabout{
+	background-color: #93c9d3;
+}
+
+
+#readmore{
+	padding: 20px 0 150px 0;
+}
+
+
+#workshops {
+	background-color: #93c9d3;
+}	
+
+
+#contact {
+	background-color: #e8d4d4;
+}	
+
+#filter-buttons {
+	flex-direction: row;
+	width: 40%;
+	display: flex;
+	margin: auto;
+	justify-content: space-between;
+	padding: 100px 0 30px 0;
+}
+
+
+#flex{
+	display: flex;
+	width: 20%;
+}
+
+#flex ul{
+	display: flex;
+	flex: 1;
+	flex-direction: row;
+	justify-content: space-evenly;
+	font-size: 14px;
+	line-height: 34px;
+}
+
+
+#flexfooter{
+	display: flex;
+	height: 130px;
+}
+
+#flexcontainer {
+	width: 95%;
+	justify-content: flex-start;
+	margin:auto;
+	align-items: center; 
+}
+
+
+#flexleft{
+	display: flex;
+	width: 40%;
+	text-align: left;
+	flex-direction: row;
+	justify-content: space-between;
+	font-size: 14px;
+}
+
+#flex-parent figure{
+	flex-basis: 1;
+	padding-bottom: 150px;
+}
+
+
+#float {
+	float: left;
+	width:100%;
+	padding-top: 250px;
+}
+
+#floathome {
+	float: left;
+	width:100%;
+	padding-top: 500px;
+}
+
+#fontsize0 {
+	font-size: 0;
+}
+#footer {
+	background-color: #789e89;
+	align-items: center; 
+}
+
+#footer li {
+	color: white;
+}
+
+#footerright {
+	justify-content: flex-end;
+	flex:1;
+	height: 130px;
+	align-items: center; 
+}
+
+#gif {
+	float:left;
+	width:100%;
+}
+
+
+
+
+#margot {
+	background-color: #e8d4d4;
+}
+
+#nav a {
+	font-size: 50px;
+}
+
+#workshopabout {
+	background-color: #e8d4d4;
+}
+
+#workshop-grid {
+	padding: 100px 0 100px 0;	
+	background-color; white;
+}
+
+
+.logo {
+	color: white;
+	font-size: 50px;
+}
+
+.flex-parent {
+	display: flex;
+	width: 90%;
+	margin: auto;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	
+
+}
+
+.child {
+	padding-top: 50px;
+}
+
+.footerlist {
+	justify-content: left;
+}
+
+.center {
+	display: flex;
+   	flex-wrap: wrap;
+	flex-direction: column;
+	width: 100%;
+	margin: auto;
+	align-items: center;
+}
+
+.figcaption{
+	font-size: 32px;
+	color: #93c9d3;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: futura-pt-bold, sans-serif;
+}
+
+.small {
+	font-size: 18px;
+	color: #93c9d3;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: futura-pt-bold, sans-serif;
+}
+
+.responsiveimage {}
+
+.pfifty {
+	width: 50%;
+}
+
+.pink {
+	color: #e8d4d4;
+}
+
+.grid-item { width: 100%; 
+}
+
+.grid { width: 100%; 
+
+}
+
+.portfolio-center {
+	width:100%;
+	margin: auto;
+}
+.bullets {
+    list-style-type: square;
+	color: white;
+	font-family: futura-pt, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 24px;
+	padding-bottom: 50px;
+}
+
+
+.container {
+  position: relative;
+  width: 20%;
+  margin: auto;
+  padding: 1% 0 1% 0;
+}
+
+
+.overlay {
+	position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: #e8d4d4;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  text-transform: uppercase;
+  font-family: futura-pt-bold, sans-serif;
+}
+
+.float {
+	float: left;
+	width: 100%;
+}
+
+
+/*WIDE SCREEN SUPPORT*/
+@media screen and (min-width: 769px) { 
+    #header {
+		background-image: url(../images/grandbudapest1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 0;
+        padding-top: 66.69%; /* (img-height / img-width * container-width) */
+                    /* (853 / 1280 * 100) */
+    }
+}
+
+/*MOBILE SUPPORT*/
+@media screen and (max-width: 768px) {
+    #header {
+        background-image: url(../images/grandbudapest1.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 0;
+        padding-top: 66.69%; /* (img-height / img-width * container-width) */
+                    /* (853 / 1280 * 100) */
+    }
+}
+
+/*WIDE SCREEN SUPPORT*/
+@media screen and (min-width: 769px) { 
+    #portfolio {
+        background-image: url(../images/portfolio.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 0;
+        padding-top: 66.69%; /* (img-height / img-width * container-width) */
+                    /* (853 / 1280 * 100) */
+    }
+}
+
+/*MOBILE SUPPORT*/
+@media screen and (max-width: 768px) {
+    #portfolio {
+        background-image: url(../images/portfolio.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 0;
+        padding-top: 66.69%; /* (img-height / img-width * container-width) */
+                    /* (853 / 1280 * 100) */
+    }
+}
+/*WIDE SCREEN SUPPORT*/
+@media screen and (min-width: 769px) { 
+    #newsletter {
+        background-image: url(../images/newsletter.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 0;
+        padding-top: 66.69%; /* (img-height / img-width * container-width) */
+                    /* (853 / 1280 * 100) */
+    }
+}
+
+/*MOBILE SUPPORT*/
+@media screen and (max-width: 768px) {
+    #newsletter {
+        background-image: url(../images/newsletter.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 0;
+        padding-top: 66.69%; /* (img-height / img-width * container-width) */
+                    /* (853 / 1280 * 100) */
+    }
+}
+
+
+/*WIDE SCREEN SUPPORT*/
+@media screen and (min-width: 769px) { 
+    #budapest1 {
+		background-image: url(../images/grandbudapest1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 0;
+        padding-top: 66.69%; /* (img-height / img-width * container-width) */
+                    /* (853 / 1280 * 100) */
+    }
+}
+
+/*MOBILE SUPPORT*/
+@media screen and (max-width: 768px) {
+    #budapest1{
+        background-image: url(../images/grandbudapest1.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 0;
+        padding-top: 66.69%; /* (img-height / img-width * container-width) */
+                    /* (853 / 1280 * 100) */
+    }
+}
+
+/*WIDE SCREEN SUPPORT*/
+@media screen and (min-width: 769px) { 
+    #budapest1 {
+		background-image: url(../images/grandbudapest1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 0;
+        padding-top: 66.69%; /* (img-height / img-width * container-width) */
+                    /* (853 / 1280 * 100) */
+    }
+}
+
+/*MOBILE SUPPORT*/
+@media screen and (max-width: 768px) {
+    #budapest1{
+        background-image: url(../images/grandbudapest1.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 0;
+        padding-top: 66.69%; /* (img-height / img-width * container-width) */
+                    /* (853 / 1280 * 100) */
+    }
+}
+
+
+/*WIDE SCREEN SUPPORT*/
+@media screen and (min-width: 769px) { 
+    #workshopspage {
+		background-image: url(../images/workshop1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 0;
+        padding-top: 66.69%; /* (img-height / img-width * container-width) */
+                    /* (853 / 1280 * 100) */
+    }
+}
+
+/*MOBILE SUPPORT*/
+@media screen and (max-width: 768px) {
+    #workshop1{
+        background-image: url(../images/workshop1.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 0;
+        padding-top: 66.69%; /* (img-height / img-width * container-width) */
+                    /* (853 / 1280 * 100) */
+    }
+}
+
+
+/*
+ * Made by Erik Terwan
+ * 24th of November 2015
+ * MIT License
+ *
+ *
+ * If you are thinking of using this in
+ * production code, beware of the browser
+ * prefixes.
+ */
+
+body
+{
+  margin: 0;
+  padding: 0;
+  
+  /* make it look decent enough */
+  background: white;
+  color: white;
+  font-family: "Furuta PT", sans-serif;
+}
+
+a
+{
+  text-decoration: none;
+  color: #e8d4d4;
+  transition: color 0.3s ease;
+}
+
+a:hover
+{
+  color: #93c9d3;
+}
+
+#menuToggle
+{
+  display: block;
+  position: relative;
+  top: 30px;
+  right: 30px;
+  
+  z-index: 1;
+  
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  
+  cursor: pointer;
+  
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+  
+  -webkit-touch-callout: none;
+}
+
+/*
+ * Just a quick hamburger
+ */
+#menuToggle span
+{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  
+  background: white;
+  border-radius: 3px;
+  
+  z-index: 1;
+  
+  transform-origin: 4px 0px;
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+/* 
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: white;
+}
+
+/*
+ * But let's hide the middle one.
+ */
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/*
+ * Ohyeah and the last one should go the other direction
+ */
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+/*
+ * Make this absolute positioned
+ * at the top left of the screen
+ */
+#menu
+{
+  position: absolute;
+  width: 300px;
+  margin: -100px 0 0 -340px;
+  padding: 50px;
+  padding-top: 125px;
+  
+  background: white;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  /* to stop flickering of text in safari */
+  
+  transform-origin: 0% 0%;
+  transform: translate(150%, 0);
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li
+{
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+
+/*
+ * And let's slide it in from the left
+ */
+#menuToggle input:checked ~ ul
+{
+  transform: none;
+}
+
+
+<style>
+  @import url("https://use.typekit.net/xnx6xuw.css");
+</style>
+
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
