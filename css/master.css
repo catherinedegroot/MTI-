@@ -11,38 +11,6 @@ html {
   box-sizing: inherit;
 }
 
-p {
-	font-family: futura-pt, sans-serif;
-	font-style: normal;
-	font-weight: 300;
-	color: white;
-	font-size: 24px;
-	text-align: center;
-}
-
-	
-h1{
-	color: white;
-	text-transform: uppercase;
-	padding-top: 250px;
-	font-size: 75px;
-	float: left;
-	width:100%;
-}	
-
-	
-h2{
-	color: white;
-	text-transform: uppercase;
-	font-size: 64px;
-	width: 100%;
-	display: block;
-	justify-content: center;
-	text-align: center;
-	padding: 150px 0 60px 0;
-	
-}	
-
 a {
 	text-decoration: none;
 	font-size: 28px;
@@ -67,11 +35,114 @@ button {
 
 button:hover {
 	color: #e8d4d4;
+	cursor: pointer;
+}
+	
+h1{
+	color: white;
+	text-transform: uppercase;
+	padding-top: 250px;
+	font-size: 75px;
+	float: left;
+	width:100%;
+}	
+
+h2{
+	color: white;
+	text-transform: uppercase;
+	font-size: 64px;
+	width: 100%;
+	display: block;
+	justify-content: center;
+	text-align: center;
+	padding: 150px 0 60px 0;
 	
 }
 
-.pointer {cursor: pointer;
+p {
+	font-family: futura-pt, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	color: white;
+	font-size: 24px;
+	text-align: center;
+	padding-bottom: 50px;
+}
 
+	
+
+
+
+
+
+
+.bullets {
+    list-style-type: square;
+	color: white;
+	font-family: futura-pt, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 24px;
+	padding-bottom: 50px;
+}
+
+.center {
+	display: flex;
+   	flex-wrap: wrap;
+	flex-direction: column;
+	width: 100%;
+	margin: auto;
+	align-items: center;
+}
+
+.child {
+	padding-top: 50px;
+}
+
+.container {
+  position: relative;
+  width: 20%;
+  margin: auto;
+  padding: 1% 0 1% 0;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.figcaption{
+	font-size: 32px;
+	color: #93c9d3;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: futura-pt-bold, sans-serif;
+}
+
+.flex-parent {
+	display: flex;
+	width: 90%;
+	margin: auto;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.float {
+	float: left;
+	width: 100%;
+	z-index:999;
+}
+
+.footerlist {
+	justify-content: left;
+}
+
+.grid-item { width: 100%; 
+}
+
+.grid { width: 100%; 
+}
+.hidden-text {
+	display: none;
 }
 
 .img {
@@ -79,91 +150,162 @@ button:hover {
 	float: left;
 }
 
+.logo {
+	color: white;
+	font-size: 50px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+}
+
+.pfifty {
+	width: 50%;
+}
+
+.pink {
+	color: #e8d4d4;
+}
+
+.pointer {cursor: pointer;
+
+}
+
+.portfolio-center {
+	width:100%;
+	margin: auto;
+}
+
+.read-more {
+	margin: auto;
+}
+
 .script {
 	color: #e8d4d4;
 }
 
-p {
-	padding-bottom: 50px;
+.small {
+	font-size: 18px;
+	color: #93c9d3;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: futura-pt-bold, sans-serif;
 }
+
+.small:hover {
+	color: #e8d4d4;
+}
+
+.telegram {
+	width:50%;
+	position: sticky;
+	padding-top: 00px;
+	margin: auto;
+	float: left;
+}
+
+.text {
+  color: #e8d4d4;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  text-transform: uppercase;
+  font-family: futura-pt-bold, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
 	
+
+#about {
+	background-color: #eedaa5;
+}
+
+#about a {
+	color: white;
+}
+
+#about a:hover {
+	color: #93c9d3;
+}
+
+#about h2:hover {
+	color: #93c9d3;
+}
+
 #angle-up {
 	color: white; 
 }	
 
-#contact ul {
-	padding: 15% 0 15% 0;
-}
-
-
-#wrapper {
-	width: 100%;
-	justify-content: center;
-}
-
-
-#navcontainer {
-	position: fixed;
-	top:50px;
+#arrows {
+	width: 90%;
 	margin: auto;
-	width: 100%;
-	height: 200px;
-	z-index: 1;
-}
-
-
-#navcontainer-small {
-	top:50px;
-	margin: auto;
-	width: 100%;
-	height: 300px;
-	z-index: 1;
-	background-color: #93c9d3;
-}
-
-#nav {
 	display: flex;
 	justify-content: space-between;
-	width: 95%;
-	margin: auto;
+	opacity: 0.5;
+	padding-top: 15%;
 }
 
-#nav-push {
-	padding-top: 30px;
-	display: flex;
-	justify-content: space-between;
-	width: 95%;
-	margin: auto;
-
-}
-
-#about {
-	background-color: #eedaa5;
+#arrows a{
+color: white;
 }
 
 #backtotop {
 	font-size: 100px;
 }
 
-
-#budapestabout{
-	background-color: #93c9d3;
-}
-
-
-#readmore{
+#booknow{
 	padding: 20px 0 150px 0;
 }
 
+#booknow a{
+	color: white;
+}
 
-#workshops {
+#booknow a:hover {
+	color: #e8d4d4;
+}
+
+#budapestabout{
 	background-color: #93c9d3;
-}	
-
+	padding-bottom: 90px;
+}
 
 #contact {
 	background-color: #e8d4d4;
 }	
+
+#contact a {
+	color: white;
+}
+
+#contact a:hover{
+	color: #93c9d3;
+}
+
+#contact ul {
+	padding: 15% 0 15% 0;
+}
 
 #filter-buttons {
 	flex-direction: row;
@@ -171,9 +313,18 @@ p {
 	display: flex;
 	margin: auto;
 	justify-content: space-between;
-	padding: 100px 0 30px 0;
+	padding: 150px 0 30px 0;
+	z-index: -100;
+	
 }
 
+#filter-buttons:hover {
+	cursor: pointer;
+}
+
+figcaption:hover {
+	color: #e8d4d4;
+}
 
 #flex{
 	display: flex;
@@ -196,7 +347,7 @@ p {
 }
 
 #flexcontainer {
-	width: 95%;
+	width: 90%;
 	justify-content: flex-start;
 	margin:auto;
 	align-items: center; 
@@ -212,6 +363,10 @@ p {
 	font-size: 14px;
 }
 
+#flexleft a{
+	color: white;
+}
+
 #flex-parent figure{
 	flex-basis: 1;
 	padding-bottom: 150px;
@@ -221,13 +376,19 @@ p {
 #float {
 	float: left;
 	width:100%;
-	padding-top: 250px;
+	padding-top: 20%;
 }
 
 #floathome {
 	float: left;
 	width:100%;
-	padding-top: 500px;
+	padding-top: 30%;
+}
+
+#floatportfolio {
+	float: left;
+	width:100%;
+	line-height: 450%;
 }
 
 #fontsize0 {
@@ -249,24 +410,227 @@ p {
 	align-items: center; 
 }
 
+#footerright a{
+	color: white;
+}
+
 #gif {
 	float:left;
 	width:100%;
 }
+ 
+#grid {
+	background-image: url('../images/margot.jpg');
+	 background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 0;
+		 padding-top: 55.69%;
+		 z-index:100;
+}
 
 
+#header-portfolio {
+	    width: 100%;
+        height: 0;
+        z-index:100;
+		
+}
+#header-portfolio-apartment {
+		background-image: url(../images/apartment2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 0;
+        padding-top: 62.5%;
+}
+
+#header-portfolio-luce {
+		background-image: url(../images/bar-luce5.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 0;
+        padding-top: 74.8%;
+}
 
 
-#margot {
+#header-portfolio-calcutta-cricket-club {
+		background-image: url(../images/calcutta-cricket-club1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 0;
+        padding-top: 62.5%;
+}
+
+#header-portfolio-house {
+		background-image: url(../images/house5.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 0;
+        padding-top: 62.5%;
+}
+
+#header-portfolio-stadbad {
+		background-image: url(../images/stadbad-gotha5.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 0;
+        padding-top: 77.76%;
+}
+
+#margot{
 	background-color: #e8d4d4;
+}
+
+#nav {
+	display: flex;
+	justify-content: space-between;
+	width: 95%;
+	margin: auto;
+	z-index:500;
 }
 
 #nav a {
 	font-size: 50px;
 }
 
+#nav-push {
+	padding-top: 30px;
+	display: flex;
+	justify-content: space-between;
+	width: 95%;
+	margin: auto;
+	
+}
+
+#navcontainer {
+	position: fixed;
+	top:50px;
+	margin: auto;
+	width: 100%;
+	height: 200px;
+	z-index: 500;
+}
+
+
+#navcontainer-portfolio {
+	position: fixed;
+	top:0px;
+	margin: auto;
+	width: 100%;
+	height: 50px;
+	z-index: 500;
+	
+}
+
+#navcontainer-portfolio2 {
+	background-color: #93c9d3;
+}
+#navcontainer-small {	
+	top:50px;
+	margin: auto;
+	width: 100%;
+	height: 150px;
+	z-index: 1;
+	
+}
+
+#portfolio-apartment {
+	background-image: url(../images/portfolio-apartment.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 0;
+	padding-top: 43.85%; 
+}
+
+#portfolio-apartment:hover {
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+
+#portfolio-budapest {
+	background-image: url(../images/portfolio-grandbudapest.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 0;
+	padding-top: 43.85%; 
+}
+
+#portfolio-budapest:hover {
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+
+#portfolio-barluce {
+	background-image: url(../images/portfolio-barluce.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 0;
+	padding-top: 37.04%; 
+}
+
+#portfolio-barluce:hover {
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+
+#portfolio-calcutta {
+	background-image: url(../images/portfolio-calcutta.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 0;
+	padding-top: 43.92%; 
+}
+
+#portfolio-calcutta:hover {
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+
+#portfolio-house {
+	background-image: url(../images/portfolio-house.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 0;
+	padding-top: 43.92%; 
+}
+
+#portfolio-house:hover {
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+
+#portfolio-stadbad {
+	background-image: url(../images/portfolio-stadbad.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 0;
+	padding-top: 40%; 
+}
+
+#portfolio-stadbad:hover {
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+
+#readmore{
+	padding: 20px 0 150px 0;
+}
+
+
 #workshopabout {
 	background-color: #e8d4d4;
+	padding-bottom: 150px;
 }
 
 #workshop-grid {
@@ -274,129 +638,43 @@ p {
 	background-color; white;
 }
 
-
-.logo {
-	color: white;
-	font-size: 50px;
+#workshop-grid img:hover
+{
+	opacity: 0.3;
+	filter: alpha(opacity=30);
 }
 
-.flex-parent {
-	display: flex;
-	width: 90%;
-	margin: auto;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
+#workshops {
+	background-color: #93c9d3;
+}
+
+#wrapper {
+	width: 100%;
+	justify-content: center;
+	z-index: -100;
+}
+
+#wrapper-portfolio {
+	width: 100%;
+	justify-content: center;
+	z-index: -500;
+	background-color: #93c9d3;
+}
+
+
+
 	
 
-}
-
-.child {
-	padding-top: 50px;
-}
-
-.footerlist {
-	justify-content: left;
-}
-
-.center {
-	display: flex;
-   	flex-wrap: wrap;
-	flex-direction: column;
-	width: 100%;
-	margin: auto;
-	align-items: center;
-}
-
-.figcaption{
-	font-size: 32px;
-	color: #93c9d3;
-	text-transform: uppercase;
-	text-align: center;
-	font-family: futura-pt-bold, sans-serif;
-}
-
-.small {
-	font-size: 18px;
-	color: #93c9d3;
-	text-transform: uppercase;
-	text-align: center;
-	font-family: futura-pt-bold, sans-serif;
-}
-
-.responsiveimage {}
-
-.pfifty {
-	width: 50%;
-}
-
-.pink {
-	color: #e8d4d4;
-}
-
-.grid-item { width: 100%; 
-}
-
-.grid { width: 100%; 
-
-}
-
-.portfolio-center {
-	width:100%;
-	margin: auto;
-}
-.bullets {
-    list-style-type: square;
-	color: white;
-	font-family: futura-pt, sans-serif;
-	font-style: normal;
-	font-weight: 300;
-	font-size: 24px;
-	padding-bottom: 50px;
-}
 
 
-.container {
-  position: relative;
-  width: 20%;
-  margin: auto;
-  padding: 1% 0 1% 0;
-}
 
 
-.overlay {
-	position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: white;
-}
 
-.container:hover .overlay {
-  opacity: 1;
-}
 
-.text {
-  color: #e8d4d4;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-  text-transform: uppercase;
-  font-family: futura-pt-bold, sans-serif;
-}
 
-.float {
-	float: left;
-	width: 100%;
-}
+
+
+
 
 
 /*WIDE SCREEN SUPPORT*/
@@ -407,7 +685,7 @@ p {
         background-repeat: no-repeat;
         width: 100%;
         height: 0;
-        padding-top: 66.69%; /* (img-height / img-width * container-width) */
+        padding-top: 62.59%; /* (img-height / img-width * container-width) */
                     /* (853 / 1280 * 100) */
     }
 }
@@ -420,7 +698,7 @@ p {
         background-repeat: no-repeat;
         width: 100%;
         height: 0;
-        padding-top: 66.69%; /* (img-height / img-width * container-width) */
+        padding-top: 62.59%; /* (img-height / img-width * container-width) */
                     /* (853 / 1280 * 100) */
     }
 }
@@ -428,12 +706,12 @@ p {
 /*WIDE SCREEN SUPPORT*/
 @media screen and (min-width: 769px) { 
     #portfolio {
-        background-image: url(../images/portfolio.jpg);
+        background-image: url(../images/calcutta-cricket-club1.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         width: 100%;
         height: 0;
-        padding-top: 66.69%; /* (img-height / img-width * container-width) */
+        padding-top: 62.5%; /* (img-height / img-width * container-width) */
                     /* (853 / 1280 * 100) */
     }
 }
@@ -441,24 +719,24 @@ p {
 /*MOBILE SUPPORT*/
 @media screen and (max-width: 768px) {
     #portfolio {
-        background-image: url(../images/portfolio.jpg);
+        background-image: url(../images/calcutta-cricket-club1.jpg);
         background-size: contain;
         background-repeat: no-repeat;
         width: 100%;
         height: 0;
-        padding-top: 66.69%; /* (img-height / img-width * container-width) */
+        padding-top: 62.5%; /* (img-height / img-width * container-width) */
                     /* (853 / 1280 * 100) */
     }
 }
 /*WIDE SCREEN SUPPORT*/
 @media screen and (min-width: 769px) { 
     #newsletter {
-        background-image: url(../images/newsletter.jpg);
+        background-image: url(../images/stadbad-gotha5.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         width: 100%;
         height: 0;
-        padding-top: 66.69%; /* (img-height / img-width * container-width) */
+        padding-top: 77.76%; /* (img-height / img-width * container-width) */
                     /* (853 / 1280 * 100) */
     }
 }
@@ -466,12 +744,12 @@ p {
 /*MOBILE SUPPORT*/
 @media screen and (max-width: 768px) {
     #newsletter {
-        background-image: url(../images/newsletter.jpg);
+        background-image: url(../images//stadbad-gotha5.jpg);
         background-size: contain;
         background-repeat: no-repeat;
         width: 100%;
         height: 0;
-        padding-top: 66.69%; /* (img-height / img-width * container-width) */
+        padding-top: 77.76%; /* (img-height / img-width * container-width) */
                     /* (853 / 1280 * 100) */
     }
 }

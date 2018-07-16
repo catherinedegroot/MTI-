@@ -9,15 +9,15 @@
 <link type="text/css" rel="stylesheet" href="css/reset.css"/>
 <link type="text/css" rel="stylesheet" href="css/master.css"/>
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">	
-<link type="text/css" rel="stylesheet" href="css/lightbox.css"/>
 <link rel="stylesheet" href="https://use.typekit.net/xnx6xuw.css">
+<link rel="stylesheet" rel="stylesheet" href="css/animate.css"/>
 
 </head>
 	<body>
 	<div id="wrapper">
 	
 	
-	<h2 id="float" class="center">The Grand Budapest Hotel</h2>
+	<h2 id="floathome" class="center">The Grand Budapest Hotel</h2>
 	
 	
 		<div id="header">
@@ -25,29 +25,89 @@
 				<div id="nav">	
 					<a class="logo" href="index.html">MTI</a>
 					 
-					</a>
-				</div>	
+					<div id="hamburger">								<!--    Made by Erik Terwan    -->
+						<!--   24th of November 2015   -->
+						<!--        MIT License        -->
+						<nav role="navigation">
+						  <div id="menuToggle">
+							<!--
+							A fake / hidden checkbox is used as click reciever,
+							so you can use the :checked selector on it.
+							-->
+							<input type="checkbox" />
+							
+							<!--
+							Some spans to act as a hamburger.
+							
+							They are acting like a real hamburger,
+							not that McDonalds stuff.
+							-->
+							<span></span>
+							<span></span>
+							<span></span>
+							
+							<!--
+							Too bad the menu has to be inside of the button
+							but hey, it's pure CSS magic.
+							-->
+							<ul id="menu">
+							  <a href="index.html"><li>Home</li></a>
+							  <a href="about.html"><li>About</li></a>
+							  <a href="portfolio.html"><li>Portfolio</li></a>
+							  <a href="workshops.html"><li>Workshops</li></a>
+							  <a href="contact.html"><li>Contact</li></a>
+							 </ul>
+						  </div>
+						</nav>
+						
+						
+					</div>	
 			</div>	
+			
+			
+						<div id="arrows">
+						<a href="stadbad.html"><i class="fas fa-chevron-left" style="font-size: 60px;"></i></a>
+						<a href="barluce.html"><i class="fas fa-chevron-right" style="font-size: 60px;"></i></a>
+						</div>
 		</div>	
 		
 		
 		
 		<div id="budapestabout" class="center cf">
-		
-			<h2>about</h2>
-			<div class="pfifty"> <p>Margot Tenenbaum Interiors is a studio made up of designers passionate about creating the perfect space for each client. Our interiors are timeless, reflecting our client’s personality, not the latest trend. This insight can only be delivered due to the personal relationship which Margot develops with each client. Attention to detail is key to creating a beautiful and truly personal space, which is why we only work with the highest quality materials and seek out the most skilled craftsmen for our projects. </p>
-			</div>
-			<div id="readmore"><a href="about">read more</a></div>
+			<div class="scroll-animations">
+				<div class="animated center">
+					<h2 >about</h2>
+					<p class="pfifty">The interior of the Grand Budapest has so much personality and originality. The saturated and vibrant colours create a moody and unique atmosphere. The red lacquer walls, the pink hues and the wood tones mix with the surreal lighting to create a truly special space. </p>
+				</div>	
+			</div>	
 		</div>
 		
-		</div>
+		<div class="scroll-animations">
+		 <div class="animated center">
+			<img src="images/gp_exterior2.jpg" class="img"/>
+			</div>	
+		</div>	
 		
+		<div class="scroll-animations">
+		 <div class="animated center">
+			<img src="images/gp_ballroom.jpg" class="img"/>
+			</div>	
+		</div>	
 		
-		<img src="images/gp_exterior2.jpg" class="img" alt="image of hills with the Grand Budapest Hotel in the distance" />
-		<img src="images/gp_ballroom.jpg" class="img" alt="image of the Ballroom in the Grand Budapest Hotel" />
-		<img src="images/gp_exterior.jpg" class="img" alt="image of the porch of the Grand Budapest Hotel" />
-		<img src="images/gp_reception.jpg" class="img" alt="image of the reception in the Grand Budapest Hotel" />
+		<div class="scroll-animations">
+		 <div class="animated center">
+			<img src="images/gp_exterior.jpg" class="img"/>
+			</div>	
+		</div>	
 		
+		<div class="scroll-animations">
+		 <div class="animated center">
+			<img src="images/gp_reception.jpg" class="img"/>
+			</div>	
+		</div>	
+		
+			
+				
 				
 		
 		<div id="footer" class="flexfooter">
@@ -68,16 +128,13 @@
 				</div>		
 					
 					<div id="footerright" class="flex-parent">
-						<a href="#header"><i class="fas fa-angle-up"></i></a>
+						<a href="#header"><i class="fas fa-angle-up" style="font-size: 60px;"></i></a>
 					</div>
 			</div>
 		</div>
 		
 
-	
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
 <script src="js/myscripts.js"></script>
-<script src="js/lightbox.js"></script>
 </body>
 </html>

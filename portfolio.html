@@ -17,59 +17,143 @@
 
 </head>
 	<body>
-	<div id="wrapper">
 	
-		
-			<div id="navcontainer-small">
+	<div id="navcontainer-portfolio2">
+		<div id="navcontainer-portfolio">
 				<div id="nav-push">	
 					<a class="logo" href="index.html">MTI</a>
 				
-		
-  										
+					<div id="hamburger">								<!--    Made by Erik Terwan    -->
+						<!--   24th of November 2015   -->
+						<!--        MIT License        -->
+						<nav role="navigation">
+						  <div id="menuToggle">
+							<!--
+							A fake / hidden checkbox is used as click reciever,
+							so you can use the :checked selector on it.
+							-->
+							<input type="checkbox" />
+							
+							<!--
+							Some spans to act as a hamburger.
+							
+							They are acting like a real hamburger,
+							not that McDonalds stuff.
+							-->
+							<span></span>
+							<span></span>
+							<span></span>
+							
+							<!--
+							Too bad the menu has to be inside of the button
+							but hey, it's pure CSS magic.
+							-->
+							<ul id="menu">
+							  <a href="index.html"><li>Home</li></a>
+							  <a href="about.html"><li>About</li></a>
+							  <a href="portfolio.html"><li>Portfolio</li></a>
+							  <a href="workshops.html"><li>Workshops</li></a>
+							  <a href="contact.html"><li>Contact</li></a>
+							 </ul>
+						  </div>
+						</nav>
+						</div>	
+						
+			
 				</div>	
+		</div>	
+			
 				
 				
 				<div id="filter-buttons" class="button-group filter-button-group pointer ">
 						<button data-filter=".residential">residential</button>
 						<button data-filter=".commercial">commercial</button>
 						<button data-filter="*">all</button>
-				</div>
-			</div>							
+				</div>	
+		
+		</div>				
 	
 		
+		<div class="wrapper-portfolio">
 		
-			<div class="portfolio-center">
-				<div class="grid">		
-						
-					<a href="grandbudapest">
-					<div class="element-item residential float cf">
-					<img src="images/grandbudapestp.jpg" class="grid-item" alt="image of the Grand Budapest Hotel exterior" />
+		
+			
+				<div class="grid">
+				
+				
+									
+					
+					<div class="center">
+					<a href="grandbudapest.html">
+						<div class="element-item commercial float">
+							<h2 id="floatportfolio">The Grand Budapest Hotel</h2>
+								<div id="portfolio-budapest">
+								</div>
+						</div>
+					</a>
 					</div>
+					
+					
+					<div class="center">
+					<a href="barluce.html">
+						<div class="element-item commercial float">
+							<h2 id="floatportfolio">Bar Luce</h2>
+								<div id="portfolio-barluce">
+								</div>
+						</div>
 					</a>
-					
-					
-					<a href="barluce" class="cf">
-					<div class="element-item commercial cf">
-					<img src="images/barlucep.jpg" class="grid-item" alt="image of Bar Luce interior" />
-					</div>	
+					</div>
+				
+					<div class="center">
+					<a href="calcuttacricketclub.html">
+						<div class="element-item commercial float">
+							<h2 id="floatportfolio">Calcutta Cricket Club</h2>
+								<div id="portfolio-calcutta">
+								</div>
+						</div>
 					</a>
+					</div>
 					
-					
-					<div class="element-item residential">
-					<img src="images/budapest3.jpg" class="grid-item" alt="image of Madame D's room in the Grand Budapest Hotel" />
-					</div>	
-					
-					<div class="element-item commercial">
-					<img src="images/budapest4.jpg" class="grid-item" alt="image of Madame D's room in the Grand Budapest Hotel" />
-					</div>	
+					<div class="center">
+					<a href="apartment.html">
+						<div class="element-item commercial float">
+							<h2 id="floatportfolio">Apartment, NYC</h2>
+								<div id="portfolio-apartment">
+								</div>
+						</div>
+					</a>
+					</div>
 				
+					<div class="center">
+					<a href="stadbad.html">
+						<div class="element-item commercial float">
+							<h2 id="floatportfolio">Stadbad Gotha</h2>
+								<div id="portfolio-stadbad">
+								</div>
+						</div>
+					</a>
+					</div>
+					
+					<div class="center">
+					<a href="house.html">
+						<div class="element-item residential float">
+							<h2 id="floatportfolio">Private Residence, Lake Como</h2>
+								<div id="portfolio-house">
+								</div>
+						</div>
+					</a>
+					</div>
 				
-				</div>		
-			</div>	
-			
-			
-		</div>
+				</div>
+			</div>
 		
+					
+					
+										
+					
+			
+					
+					
 		
 		<div id="footer" class="flexfooter">
 			<div id="flexcontainer" class="flex-parent">	
@@ -89,7 +173,7 @@
 				</div>		
 					
 					<div id="footerright" class="flex-parent">
-						<a href="#header"><i class="fas fa-angle-up"></i></a>
+						<a href="#navcontainer-portfolio2"><i class="fas fa-angle-up" style="font-size: 60px;"></i></a>
 					</div>
 			</div>
 		</div>
@@ -98,7 +182,7 @@
 	
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
-<script src="js/myscripts.js"></script>
-<script src="js/lightbox.js"></script>
+<script src="js/iso.js"></script>
+
 </body>
 </html>

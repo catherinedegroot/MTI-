@@ -1,16 +1,23 @@
-$('.grid').isotope({
-  // options
-  itemSelector: '.element-item',
-  layoutMode: 'fitRows'
-});
 
-// init Isotope
-var $grid = $('.grid').isotope({
-  // options
-});
-// filter items on button click
-$('.filter-button-group').on( 'click', 'button', function() {
-  var filterValue = $(this).attr('data-filter');
-  $grid.isotope({ filter: filterValue });
-});
+// Scroll function courtesy of Scott Dowding; http://stackoverflow.com/questions/487073/check-if-element-is-visible-after-scrolling
 
+$(document).ready(function() {
+  // Check if element is scrolled into view
+  function isScrolledIntoView(elem) {
+    var docViewTop = $(window).scrollTop();
+    var docViewBottom = docViewTop + $(window).height();
+
+    var elemTop = $(elem).offset().top;
+    var elemBottom = elemTop + $(elem).height();
+
+    return (docViewBottom >= elemTop && docViewTop <= elemBottom);
+  }
+  // If element is scrolled into view, fade it in
+  $(window).scroll(function() {
+    $('.scroll-animations .animated').each(function() {
+      if (isScrolledIntoView(this) === true) {
+        $(this).addClass('fadeInUp');
+      }
+    });
+  });
+});
