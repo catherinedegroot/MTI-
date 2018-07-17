@@ -668,11 +668,179 @@ figcaption:hover {
 
 
 
+@media screen and (max-width: 768px) {
 
 
+h1 {
+	padding-top: 100px;
+	font-size: 40px;
+	text-align: center;
+	}
+
+h2 {
+	font-size: 32px;
+	padding: 75px 0 30px 0;
+	}
+	
+p {
+	font-size: 18px;
+	padding-bottom: 25px;
+}	
+	
+a {
+	font-size: 24px;
+}	
+
+#readmore{
+	padding: 20px 0 60px 0;
+}
+
+#booknow{
+	padding: 20px 0 60px 0;
+}	
+#jotform{
+	width: 50%;
+	margin: auto;
+}
+#footer li {
+	font-size: 12px;
+}
+
+#footerright i{
+	font-size: 20px;
+}
+
+#filter-buttons {
+	width: 25%;
+	padding: 60px 0 15px 0;
+}	
+
+button {
+	padding: 10px;
+	font-size: 12px;
+}
+
+#navcontainer {
+	top:20px;
+}	
+
+}
+
+@media screen and (max-width: 480px) {
+
+h1 {
+	padding-top: 75px;
+	font-size: 32px;
+	}
+
+h2 {
+	font-size: 24px;
+	padding: 25px 0 20px 0;
+	}
+	
+p {
+	font-size: 14px;
+	padding-bottom: 22px;
+}		
+	
+a {
+	font-size: 14px;
+}	
+
+#readmore{
+	padding: 20px 0 60px 0;
+}
+
+#booknow{
+	padding: 20px 0 60px 0;
+}	
+#jotform{
+	width: 50%;
+	margin: auto;
+}
+#footer li {
+	font-size: 8px;
+}
+
+#footerright i{
+	font-size: 20px;
+}
+
+#filter-buttons {
+	width: 15%;
+	padding: 50px 0 10px 0;
+}	
+
+button {
+	padding: 5px;
+	font-size: 8px;
+}
+
+#navcontainer {
+	top:20px;
+}
+}
 
 
+@media screen and (max-width: 320px) {
+	
+h1 {
+padding-top: 75px;
+font-size: 24px;
+}
 
+h2 {
+	font-size: 18px;
+	padding: 40px 0 18px 0;
+	}
+	
+p {
+	font-size: 14px;
+	padding-bottom: 22px;
+}		
+	
+a {
+	font-size: 14px;
+}	
+
+.logo a {
+	font-size: 10px;
+}
+
+#readmore{
+	padding: 20px 0 60px 0;
+}
+
+#booknow{
+	padding: 20px 0 60px 0;
+}	
+#jotform{
+	width: 50%;
+	margin: auto;
+}
+#footer li {
+	font-size: 8px;
+}
+
+#footerright i{
+	font-size: 20px;
+}
+
+#filter-buttons {
+	width: 10%;
+	padding: 50px 0 10px 0;
+}	
+
+button {
+	padding: 5px;
+	font-size: 8px;
+}
+
+#navcontainer {
+	top:20px;
+}
+
+}
 
 
 
